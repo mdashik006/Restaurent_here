@@ -17,7 +17,7 @@ function App() {
           <Routes>
               <Route index path='/Restaurent_here' element={<Home/>} />
               <Route path='/Menu' element={<Menu cartarry={cartarry} setcartarry={setcartarry}/>}></Route>
-              <Route path='/  ' element={<Cart cartarry={cartarry} setcartarry={setcartarry}/>}></Route>
+              <Route path='/Cart' element={<Cart cartarry={cartarry} setcartarry={setcartarry}/>}></Route>
           </Routes>
         </div>
     </BrowserRouter>
